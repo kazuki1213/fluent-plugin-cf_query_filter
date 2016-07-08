@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "fluent-plugin-cf_query_filter"
-  spec.version       = "0.1.0"
+  spec.version       = "0.1.1"
   spec.authors       = ["kazuki nozawa"]
   spec.email         = ["kazuki1213@gmail.com"]
   spec.summary       = %q{fluentd plugin to filter cs-uri-query from cloudfront log}
